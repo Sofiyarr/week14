@@ -1,0 +1,29 @@
+.cont1{
+    width: 150px;
+    line-height: 1.5;
+    text-decoration: underline;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 200px;
+    grid-template-rows: 1fr;
+}
+
+.cont2{
+    grid-column: 2/3;
+    line-height: 1.5;
+    text-decoration: underline;
+}
+
+.cont3{
+    grid-column: 4/5;
+    line-height: 1.5;
+    text-decoration: underline;
+}
+
+.dropdownshow{
+    grid-column: 3/4;
+    justify-self: center;
+    align-self: center;
+}
